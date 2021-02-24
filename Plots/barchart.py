@@ -27,3 +27,4 @@ layout = go.Layout(title='Corona Virus Confirmed Cases in The US', xaxis_title="
 # Plot the figure and saving in a html file
 fig = go.Figure(data=data, layout=layout)
 pyo.plot(fig, filename='barchart.html')
+
